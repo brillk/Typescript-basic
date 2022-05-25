@@ -1,0 +1,12 @@
+{
+    //ts 파일이 어딨는지 알려주기
+    "include": ["src"],
+    "compilerOptions": {
+        "outDir": "build", // 자바스크립트가 파일이 생성될 디렉터리를 지정한다
+        "target": "ES6", // 타입스크립이 자바스크립으로 변환할때, 어떤 버전으로 변환할 지 정할 수 있다
+        "lib": ["ES6"], // 파일이 어디서 시작하는지 알게 해줌, DOM을 추가해서 자동완성기능
+        "strict": true, // 모든 실수로부터 보호해준다
+        "esModuleInterop": true,
+        "module": "CommonJS",
+    }
+}
